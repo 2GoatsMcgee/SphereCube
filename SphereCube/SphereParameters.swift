@@ -12,6 +12,8 @@ class SphereParameters: NSObject {
     ///Area of the Sphere
     ///- Parameter radius: user inputs the radius
     ///- Returns: Area of a Sphere with the given radius
+    ///                2
+    /// Area = 4 * π radius 
     func area_of_sphere(radius: Double) -> Double{
         return 4.0 * Double.pi * (radius ↑ (2.0))
     }

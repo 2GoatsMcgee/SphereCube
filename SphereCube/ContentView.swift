@@ -18,8 +18,8 @@ struct ContentView: View {
     func calculate(){
         ///This is the function that assigns the numbers to the variables that are used after the button is pressed. It then connects the code to were the calculations are done. These files are called SphereParameters and Cube Parameters.
         if let r = Double(radius) {
-            var sphereParameters = SphereParameters()
-            var cubeParameters = CubeParameters()
+            let sphereParameters = SphereParameters()
+            let cubeParameters = CubeParameters()
             area_of_sphere = sphereParameters.area_of_sphere(radius: r)
             area_of_cube = cubeParameters.area_of_cube(radius: r)
             volume_of_cube = cubeParameters.volume_of_cube(radius: r)
