@@ -14,6 +14,15 @@
 		AB0F56A02979FD97008C3264 /* SphereCubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F569F2979FD97008C3264 /* SphereCubeTests.swift */; };
 		AB0F56AA2979FD97008C3264 /* SphereCubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56A92979FD97008C3264 /* SphereCubeUITests.swift */; };
 		AB0F56AC2979FD97008C3264 /* SphereCubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56AB2979FD97008C3264 /* SphereCubeUITestsLaunchTests.swift */; };
+		AB0F56B9297A02C1008C3264 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56B8297A02C1008C3264 /* SphereParameters.swift */; };
+		AB0F56BA297A02C1008C3264 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56B8297A02C1008C3264 /* SphereParameters.swift */; };
+		AB0F56BB297A02C1008C3264 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56B8297A02C1008C3264 /* SphereParameters.swift */; };
+		AB0F56BD297A03CD008C3264 /* CubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56BC297A03CD008C3264 /* CubeParameters.swift */; };
+		AB0F56BE297A03CD008C3264 /* CubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56BC297A03CD008C3264 /* CubeParameters.swift */; };
+		AB0F56BF297A03CD008C3264 /* CubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56BC297A03CD008C3264 /* CubeParameters.swift */; };
+		AB0F56C1297A0992008C3264 /* Terrys code.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56C0297A0992008C3264 /* Terrys code.swift */; };
+		AB0F56C2297A0992008C3264 /* Terrys code.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56C0297A0992008C3264 /* Terrys code.swift */; };
+		AB0F56C3297A0992008C3264 /* Terrys code.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F56C0297A0992008C3264 /* Terrys code.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,9 @@
 		AB0F56A52979FD97008C3264 /* SphereCubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereCubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0F56A92979FD97008C3264 /* SphereCubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereCubeUITests.swift; sourceTree = "<group>"; };
 		AB0F56AB2979FD97008C3264 /* SphereCubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereCubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB0F56B8297A02C1008C3264 /* SphereParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereParameters.swift; sourceTree = "<group>"; };
+		AB0F56BC297A03CD008C3264 /* CubeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeParameters.swift; sourceTree = "<group>"; };
+		AB0F56C0297A0992008C3264 /* Terrys code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terrys code.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,9 @@
 			children = (
 				AB0F568D2979FD96008C3264 /* SphereCubeApp.swift */,
 				AB0F568F2979FD96008C3264 /* ContentView.swift */,
+				AB0F56B8297A02C1008C3264 /* SphereParameters.swift */,
+				AB0F56C0297A0992008C3264 /* Terrys code.swift */,
+				AB0F56BC297A03CD008C3264 /* CubeParameters.swift */,
 				AB0F56912979FD97008C3264 /* Assets.xcassets */,
 				AB0F56932979FD97008C3264 /* SphereCube.entitlements */,
 				AB0F56942979FD97008C3264 /* Preview Content */,
@@ -259,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0F56C1297A0992008C3264 /* Terrys code.swift in Sources */,
+				AB0F56B9297A02C1008C3264 /* SphereParameters.swift in Sources */,
 				AB0F56902979FD96008C3264 /* ContentView.swift in Sources */,
+				AB0F56BD297A03CD008C3264 /* CubeParameters.swift in Sources */,
 				AB0F568E2979FD96008C3264 /* SphereCubeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0F56C2297A0992008C3264 /* Terrys code.swift in Sources */,
+				AB0F56BA297A02C1008C3264 /* SphereParameters.swift in Sources */,
+				AB0F56BE297A03CD008C3264 /* CubeParameters.swift in Sources */,
 				AB0F56A02979FD97008C3264 /* SphereCubeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0F56C3297A0992008C3264 /* Terrys code.swift in Sources */,
+				AB0F56BB297A02C1008C3264 /* SphereParameters.swift in Sources */,
 				AB0F56AC2979FD97008C3264 /* SphereCubeUITestsLaunchTests.swift in Sources */,
+				AB0F56BF297A03CD008C3264 /* CubeParameters.swift in Sources */,
 				AB0F56AA2979FD97008C3264 /* SphereCubeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
