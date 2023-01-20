@@ -8,9 +8,17 @@
 import SwiftUI
 
 class SphereParameters: NSObject {
+    
+    ///Area of the Sphere
+    ///- Parameter radius: user inputs the radius
+    ///- Returns: Area of a Sphere with the given radius
     func area_of_sphere(radius: Double) -> Double{
         return 4.0 * Double.pi * (radius ↑ (2.0))
     }
+    
+    ///Volume of the Sphere
+    ///- Parameter radius: user inputs the radius
+    ///- Returns: Volume of a Sphere with the given radius
     func volume_of_sphere(radius: Double) -> Double{
         return (4.0 / 3.0) * Double.pi * (radius ↑ (3.0))
     }
